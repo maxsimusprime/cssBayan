@@ -19,6 +19,7 @@ h1 {
 }
 
 .accordion {
+    cursor: pointer;
     color: blue;
 }
 
@@ -85,3 +86,11 @@ h1 {
 .card:hover > label .card__image img {
     display: block;
 }
+
+.card:hover > label .card__description .card__icon .fa-chevron-left {
+    display: none;
+}
+
+.card:hover > label .card__description .card__icon .fa-chevron-down {
+    display: inline;
+} 
