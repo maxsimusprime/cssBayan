@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: block;
+    width: 440px;
+}
+
+.card__description {
+    display: flex;
+    justify-content: space-between;
+}
