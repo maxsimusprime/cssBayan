@@ -17,7 +17,7 @@ body {
 }
 
 .card__checkbox {
-    display: none;
+    /* display: none; */
 }
 
 .card__description {
@@ -30,6 +30,10 @@ body {
     justify-content: center;
 }
 
-.card__image {
-    
+.card__image img {
+    display: none;
 }
+
+.card__checkbox:checked ~ .card__image img {
+    display: block;
+} 
